@@ -1168,20 +1168,20 @@ static void WrExternGen (void *junk2)
 }
 
 
-unif01_Gen *unif01_CreateExternGen01 (char *name, double (*f_U01)(void))
+unif01_Gen *unif01_CreateExternGen01 (char *name, double (*f_U01)(void*,void*))
 {
    unif01_Gen *gen;
    size_t leng;
 
-   util_Assert (coGU == 0,
-      "unif01_CreateExternGen01:   only 1 such generator can be in use");
+   /*util_Assert (coGU == 0,
+      "unif01_CreateExternGen01:   only 1 such generator can be in use");*/
    coGU++;
    gen = util_Malloc (sizeof (unif01_Gen));
    gen->state = NULL;
    gen->param = NULL;
    gen->Write = WrExternGen;
-   externGen_U01 = f_U01;
-   gen->GetU01 = GU_U01;
+   //externGen_U01 = f_U01;
+   gen->GetU01 = f_U01; //GU_U01;
    gen->GetBits = GU_Bits;
 
    if (name) {
