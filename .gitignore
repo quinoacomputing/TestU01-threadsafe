@@ -1,0 +1,10 @@
+tcode
+*.un~
+*.log
+*.sw?
+*.o
+*.lo
+*.la
+.libs/
+include/
+
