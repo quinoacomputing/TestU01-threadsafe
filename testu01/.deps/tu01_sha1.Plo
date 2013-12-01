@@ -1,0 +1,63 @@
+tu01_sha1.lo: tu01_sha1.c ../include/tu01_sha1.h ../include/gdef.h \
+  ../include/gdefconf.h \
+  /opt/clang/3.4/bin/../lib/clang/3.4/include/limits.h \
+  /usr/include/limits.h /usr/include/features.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/x86_64-linux-gnu/bits/predefs.h \
+  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+  /usr/include/linux/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+  /opt/clang/3.4/bin/../lib/clang/3.4/include/stdint.h \
+  /usr/include/stdint.h /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/string.h \
+  /opt/clang/3.4/bin/../lib/clang/3.4/include/stddef.h \
+  /usr/include/xlocale.h
+
+../include/tu01_sha1.h:
+
+../include/gdef.h:
+
+../include/gdefconf.h:
+
+/opt/clang/3.4/bin/../lib/clang/3.4/include/limits.h:
+
+/usr/include/limits.h:
+
+/usr/include/features.h:
+
+/usr/include/stdc-predef.h:
+
+/usr/include/x86_64-linux-gnu/bits/predefs.h:
+
+/usr/include/x86_64-linux-gnu/sys/cdefs.h:
+
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
+
+/usr/include/x86_64-linux-gnu/bits/local_lim.h:
+
+/usr/include/linux/limits.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
+
+/opt/clang/3.4/bin/../lib/clang/3.4/include/stdint.h:
+
+/usr/include/stdint.h:
+
+/usr/include/x86_64-linux-gnu/bits/wchar.h:
+
+/usr/include/string.h:
+
+/opt/clang/3.4/bin/../lib/clang/3.4/include/stddef.h:
+
+/usr/include/xlocale.h:
