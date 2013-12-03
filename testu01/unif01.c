@@ -1168,7 +1168,8 @@ static void WrExternGen (void *junk2)
 }
 
 
-unif01_Gen *unif01_CreateExternGen01 (char *name, double (*f_U01)(void*,void*))
+unif01_Gen *unif01_CreateExternGen01 (char *name, double (*f_U01)(void*,void*),
+                                      unsigned long (*b_U01)(void*,void*))
 {
    unif01_Gen *gen;
    size_t leng;
@@ -1182,7 +1183,7 @@ unif01_Gen *unif01_CreateExternGen01 (char *name, double (*f_U01)(void*,void*))
    gen->Write = WrExternGen;
    //externGen_U01 = f_U01;
    gen->GetU01 = f_U01; //GU_U01;
-   gen->GetBits = GU_Bits;
+   gen->GetBits = b_U01; //GU_Bits;
 
    if (name) {
       leng = strlen (name);
