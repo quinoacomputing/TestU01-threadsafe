@@ -1,4 +1,5 @@
 tcode
+libtool
 *~
 *.log
 *.sw?
@@ -7,4 +8,7 @@ tcode
 *.Tp*
 *.la
 .libs/
+.deps/
 include/
+Makefile
+config.status
