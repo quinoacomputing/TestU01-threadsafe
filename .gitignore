@@ -1,10 +1,12 @@
 tcode
-*.un~
+*~
 *.log
 *.sw?
 *.o
-*.lo
+*.lo*
+*.Tp*
 *.la
 .libs/
 include/
+include/*~
 
