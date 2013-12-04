@@ -12,3 +12,4 @@ libtool
 include/
 Makefile
 config.status
+html/
