@@ -9,7 +9,6 @@ libtool
 *.la
 .libs/
 .deps/
-include/
 Makefile
 config.status
 html/
